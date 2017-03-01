@@ -427,6 +427,8 @@
     [super layoutSubviews];
 
     _collectionView.frame = CGRectMake(0, 0, self.frame.size.width, self.frame.size.height);
+    _collectionView.contentInset = UIEdgeInsetsZero;
+    
     if (!_pageControl.hidden) {
         NSInteger cyclingCnt = [self.delegate numberOfItemsInCyclingView:self];
         CGFloat pageControlW = cyclingCnt * 15;
@@ -462,9 +464,7 @@
         if (_configedTotalItems == _cyclingCnt * kScaleFactor + 2*_cyclingCnt) {
             targetIndex = _cyclingCnt; //初始位置在第一个周期
         }
-        
         [_collectionView scrollToItemAtIndexPath:[NSIndexPath indexPathForItem:targetIndex inSection:0] atScrollPosition:UICollectionViewScrollPositionLeft animated:NO];
-        
         [self setAutoScroll:_autoScroll];
     }
 }

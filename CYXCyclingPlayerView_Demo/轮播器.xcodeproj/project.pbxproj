@@ -22,6 +22,7 @@
 		8F1EC37D1E25FDE6009CE12F /* NSString+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1EC37C1E25FDE6009CE12F /* NSString+Tool.m */; };
 		8F1EC3801E25FE1C009CE12F /* CYXTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1EC37F1E25FE1C009CE12F /* CYXTool.m */; };
 		8F971E6C1E45BF9000137F97 /* VerticalPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F971E6B1E45BF9000137F97 /* VerticalPlayerViewController.m */; };
+		8FE3B0751E6662A20092F0F1 /* HomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE3B0741E6662A20092F0F1 /* HomeTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,8 @@
 		8F1EC37F1E25FE1C009CE12F /* CYXTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXTool.m; sourceTree = "<group>"; };
 		8F971E6A1E45BF9000137F97 /* VerticalPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerticalPlayerViewController.h; sourceTree = "<group>"; };
 		8F971E6B1E45BF9000137F97 /* VerticalPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerticalPlayerViewController.m; sourceTree = "<group>"; };
+		8FE3B0731E6662A20092F0F1 /* HomeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableViewController.h; sourceTree = "<group>"; };
+		8FE3B0741E6662A20092F0F1 /* HomeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,12 +126,14 @@
 			children = (
 				8F1EC3401E24D2FA009CE12F /* AppDelegate.h */,
 				8F1EC3411E24D2FA009CE12F /* AppDelegate.m */,
+				8F1EC3701E24D31B009CE12F /* CYXCyclingPlayerView.h */,
+				8F1EC3711E24D31B009CE12F /* CYXCyclingPlayerView.m */,
+				8FE3B0731E6662A20092F0F1 /* HomeTableViewController.h */,
+				8FE3B0741E6662A20092F0F1 /* HomeTableViewController.m */,
 				8F1EC3431E24D2FA009CE12F /* HorizonViewController.h */,
 				8F1EC3441E24D2FA009CE12F /* HorizonViewController.m */,
 				8F971E6A1E45BF9000137F97 /* VerticalPlayerViewController.h */,
 				8F971E6B1E45BF9000137F97 /* VerticalPlayerViewController.m */,
-				8F1EC3701E24D31B009CE12F /* CYXCyclingPlayerView.h */,
-				8F1EC3711E24D31B009CE12F /* CYXCyclingPlayerView.m */,
 				8F1EC3731E24D3BA009CE12F /* CYXCyclingPictureCell.h */,
 				8F1EC3741E24D3BA009CE12F /* CYXCyclingPictureCell.m */,
 				8F1EC3751E24D3BA009CE12F /* CYXCyclingPictureCell.xib */,
@@ -314,6 +319,7 @@
 				8F1EC3721E24D31B009CE12F /* CYXCyclingPlayerView.m in Sources */,
 				8F1EC3761E24D3BA009CE12F /* CYXCyclingPictureCell.m in Sources */,
 				8F1EC3451E24D2FA009CE12F /* HorizonViewController.m in Sources */,
+				8FE3B0751E6662A20092F0F1 /* HomeTableViewController.m in Sources */,
 				8F1EC3421E24D2FA009CE12F /* AppDelegate.m in Sources */,
 				8F1EC3801E25FE1C009CE12F /* CYXTool.m in Sources */,
 				8F1EC33F1E24D2FA009CE12F /* main.m in Sources */,

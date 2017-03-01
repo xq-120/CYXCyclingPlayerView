@@ -427,6 +427,8 @@
     [super layoutSubviews];
 
     _collectionView.frame = CGRectMake(0, 0, self.frame.size.width, self.frame.size.height);
+    _collectionView.contentInset = UIEdgeInsetsZero;
+    
     if (!_pageControl.hidden) {
         NSInteger cyclingCnt = [self.delegate numberOfItemsInCyclingView:self];
         CGFloat pageControlW = cyclingCnt * 15;

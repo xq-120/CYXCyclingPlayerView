@@ -54,6 +54,7 @@
     
     self.navigationItem.rightBarButtonItem = self.editButtonItem;
     self.navigationItem.rightBarButtonItem.title = @"刷新";
+    
 }
 
 - (void)setEditing:(BOOL)editing animated:(BOOL)animated
